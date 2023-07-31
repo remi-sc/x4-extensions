@@ -1,6 +1,19 @@
 # vol_fog_optmized #
 
-current status:
+The aim of this extension is to optimize the very poor performance of volumetric fog
+while trying to preserve the looks as best as possible.
+Additionally volumetric fog is not possible to disable
+(the corresponding option in graphics setting does not disable it even when set to "off")
+
+This was kicked off from forum posts starting from:
+https://forum.egosoft.com/viewtopic.php?f=180&t=414524&start=720#p5197757
+There is more context there
+
+## Installation ##
+
+copy the `extensions/vol_fog_optmized` to your game/extensions dir
+
+## Current status ##
 
 ```
 --------+-----------------------------------------+--------+-------+---------------------------------------------------+
@@ -78,7 +91,7 @@ boron   | TODO                                    |        |       |            
 --------+-----------------------------------------+--------+-------+---------------------------------------------------+
 ```
 
-development:
+# development #
 
 - Testing in flight school universe for no universe simulation load - which means much less chance to be cpu-bound and 
 much faster load times
