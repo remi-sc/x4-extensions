@@ -163,11 +163,12 @@ for example for Heretic's End:
 ```
 - change the parameters in `<volumetricfog`
 - start the game and set graphic preset to "low", 3840x2160, no AA, no upscale
-  (Add `<showfps>true</showfps>` and `<skipintro>true</skipintro>` to `config.xml` to expedite launching
+ (Add `<showfps>true</showfps>` and `<skipintro>true</skipintro>` to `config.xml` to expedite launching
 - load the save 
 - check fps without moving the camera
 - rince and repeat until going through all problematic sectors
-
+- when performance is satisfactory, take the `<volumetricfog>` tags and covert them into corresponding
+`<replace>` ones and add to `extensions/vol_fog_optmized/libraries/region_definitions.xml`
 
 # notes #
 
@@ -181,4 +182,8 @@ Tests performed in following environment:
 - X4 version 6.10 
 - all DLCs installed
 
+Random thoughts:
+- some sectors have seemingly invisible spline fogs lines (this may be a bug?)
+- on some sectors the testing positon from the save is not that representative but
+there that's a compromise to have consistent testing.
 
