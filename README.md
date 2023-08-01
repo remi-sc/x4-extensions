@@ -16,79 +16,133 @@ copy the `extensions/vol_fog_optmized` to your game/extensions dir
 ## Current status ##
 
 ```
-+---------+------------------------------------------+--------+-------+------------------------------------------------+
-|         |                                          | fps    | fps   |                                                |
-| source  |  region                                  | before | after | notes                                          |
-+---------+------------------------------------------+--------+-------+------------------------------------------------+
-| vanilla | empty (reference)                        | 225    |       |                                                |
-| vanilla | testregion                               | 200    |       |                                                |
-| vanilla | region_grav                              | 205    |       |                                                |
-| vanilla | p1_40km_hydrogen_field                   | 95     |       |                                                |
-| vanilla | p1_80km_hydrogen_field                   | 25     |       |                                                |
-| vanilla | p1_40km_helium_field                     | 80     |       |                                                |
-| vanilla | p1_40km_helium_highyield_field           | 80     |       |                                                |
-| vanilla | p1_40km_methane_field                    | 82     |       |                                                |
-| vanilla | p1_40km_methane_highyield_field          | 84     |       |                                                |
-| vanilla | p1_wreckfield_xenon_battle_60km          | 99     |       |                                                |
-| vanilla | p1_wreckfield_xenon_teladi_battle_200km  | 105    |       |                                                |
-| vanilla | p1_wreckfield_xenon_teladi_10km          | 176    |       |                                                |
-| vanilla | p1_wreckfield_xenon_split_cluster32      | 154    |       |                                                |
-| vanilla | region_cluster_01_sector_001_a           | 187    |       |                                                |
-| vanilla | region_cluster_01_sector_001_b           | 199    |       |                                                |
-| vanilla | region_cluster_01_sector_001_c           | 196    |       |                                                |
-| vanilla | region_cluster_01_sector_002_a           | 155    |       |                                                |
-| vanilla | region_cluster_01_sector_002_b           | 189    |       |                                                |
-| vanilla | region_cluster_01_sector_002_c           | 209    |       |                                                |
-| vanilla | region_cluster_01_sector_002_d           | 179    |       |                                                |
-| vanilla | region_cluster_01_sector_002_e           | 209    |       |                                                |
-| vanilla | region_cluster_01_sector_002_f           | 191    |       |                                                |
-| vanilla | region_cluster_01_sector_002_g           | 171    |       |                                                |
-| vanilla | region_cluster_01_sector_002_h           | 206    |       |                                                |
-| vanilla | region_cluster_01_sector_003_a           | 225    |       |                                                |
-| vanilla | region_cluster_01_sector_003_b           | 212    |       |                                                |
-| vanilla | region_cluster_01_sector_003_c           | 225    |       |                                                |
-| vanilla | region_cluster_01_sector_003_d           | 223    |       | invisible spline                               |
-| vanilla | region_cluster_01_sector_003_e           | 207    |       |                                                |
-| vanilla | region_cluster_01_sector_003_f           | 211    |       |                                                |
-| vanilla | region_cluster_02_sector_001b            | 136    |       |                                                |
-| vanilla | region2_cluster_04_sector_001            | 203    |       |                                                |
-| vanilla | region_cluster_07_sector_001             | 125    |       |                                                |
-| vanilla | region_cluster_08_sector_001             | 82     |       |                                                |
-| vanilla | region_cluster_14_sector_001             | 168    |       |                                                |
-| vanilla | region_cluster_17_sector_001             | 86     |       |                                                |
-| vanilla | region_cluster_25_sector_001             | 95     |       |                                                |
-| vanilla | region_cluster_25_sector_002             | 118    |       |                                                |
-| vanilla | region_cluster_26_sector_001             | 127    |       |                                                |
-| vanilla | region_cluster_26_sector_002             | 140    |       |                                                |
-| vanilla | region2_cluster_27_sector_001            | 87     |       |                                                |
-| vanilla | region_cluster_31_sector_001             | 56     | 110   | heretic's end                                  |
-| vanilla | region_cluster_32_sector_001             | 133    |       |                                                |
-| vanilla | region_cluster_32_sector_002             | 106    |       |                                                |
-| vanilla | region_cluster_33_sector_001             | 156    |       | example of significant fog that performs well  |
-| vanilla | region_cluster_35_sector_001_a           | 79     |       |                                                |
-| vanilla | region_cluster_37_sector_001             | 57     |       |                                                |
-| vanilla | region_cluster_38_sector_001             | 168    |       |                                                |
-| vanilla | region_cluster_38_sector_001_b           | 206    |       |                                                |
-| vanilla | region_cluster_40_sector_001             | 156    |       |                                                |
-| vanilla | region_cluster_41_sector_001             | 126    |       |                                                |
-| vanilla | region_cluster_43_sector_001             | 102    |       |                                                |
-| vanilla | region_cluster_44_sector_001             | 116    |       |                                                |
-| vanilla | region_cluster_45_sector_001             | 121    |       |                                                |
-| vanilla | region_cluster_46_sector_001             | 184    |       |                                                |
-| vanilla | region_cluster_47_sector_001             | 50     |       |                                                |
-| vanilla | region_cluster_47_sector_001b            | 41     | 135   |                                                |
-| vanilla | region_cluster_48_sector_001             | 93     |       |                                                |
-| vanilla | region_cluster_50_sector_001             | 54     |       |                                                |
-| vanilla | region_cluster_50_sector_002             | 54     |       |                                                |
-| vanilla | region_bigasteroids                      | 106    |       |                                                |
-| vanilla | specialregion_cluster_14_sector_001      | 209    |       |                                                |
-| vanilla | audioregion_cluster_14_sector_001        | 129    |       |                                                |
-+---------+------------------------------------------+--------+-------+------------------------------------------------+
-| terran  | TODO                                     |        |       |                                                |
-| pirate  | TODO                                     |        |       |                                                |
-| split   | TODO                                     |        |       |                                                |
-| boron   | TODO                                     |        |       |                                                |
-+---------+------------------------------------------+--------+-------+------------------------------------------------+
+WARNING: checked on 6.10 - those nodes seem to be worked on and change between versions
+xml nodes that seem to be able to generate some fog (depending on parameters): <volumetricfog>, <positional>, <nebula>
+
++---------+------------------------------------------+--------------------------------------------------------------------------------+--------+-------+
+|         |                                          | vol fog | vol nebula | pos fog |                                               | fps    | fps   |
+| source  |  region                                  | node    | node       | node    | notes                                         | before | after |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
+| vanilla | empty (reference)                        | +       |            |         |                                               | 225    |       |
+| vanilla | testregion                               | +       |            |         |                                               | 200    |       |
+| vanilla | p1_testregion_field                      |         | +          |         |                                               | 111    |       |
+| vanilla | p1_40km_test_field                       |         |            | +       |                                               | 111    |       |
+| vanilla | p1_40km_test_field2                      |         | +          | +       |                                               | 67     |       |
+| vanilla | p1_40km_asteroid_field                   |         |            |         |                                               | 182    |       |
+| vanilla | p1_40km_testregion                       |         |            |         |                                               | 207    |       |
+| vanilla | p1_40km_ice_field                        |         |            |         |                                               | 222    |       |
+| vanilla | region_grav                              | +       |            |         |                                               | 205    |       |
+| vanilla | p1_40km_hydrogen_field                   | +       | +          |         |                                               | 95     |       |
+| vanilla | p1_80km_hydrogen_field                   | +       | +          |         |                                               | 25     |       |
+| vanilla | p1_40km_helium_field                     | +       | +          |         |                                               | 80     |       |
+| vanilla | p1_40km_helium_highyield_field           | +       | +          |         |                                               | 80     |       |
+| vanilla | p1_40km_methane_field                    | +       | +          |         |                                               | 82     |       |
+| vanilla | p1_40km_methane_highyield_field          | +       | +          |         |                                               | 84     |       |
+| vanilla | region_highyield_ore                     |         |            | +       |                                               | 206    |       |
+| vanilla | region_highyield_silicon                 |         |            | +       |                                               | 206    |       |
+| vanilla | region_highyield_nividium                |         |            | +       |                                               | 160    |       |
+| vanilla | p1_gravity_field                         |         |            |         |                                               | 114    |       |
+| vanilla | p1_wreckfield_xenon_battle_60km          | +       | +          |         |                                               | 99     |       |
+| vanilla | p1_wreckfield_xenon_teladi_battle_200km  | +       | +          |         |                                               | 105    |       |
+| vanilla | p1_wreckfield_xenon_teladi_10km          | +       | +          |         |                                               | 176    |       |
+| vanilla | p1_wreckfield_xenon_split_cluster32      | +       |            |         |                                               | 154    |       |
+| vanilla | p1_wreckfield_xenon_paranid_cluster25    |         |            |         |                                               | 196    |       |
+| vanilla | p1_wreckfield_station_10km               |         | +          |         |                                               | 193    |       |
+| vanilla | p1_c01s01_asteroid_field                 |         |            |         |                                               | 203    |       |
+| vanilla | region_cluster_01_sector_001_a           | +       |            |         |                                               | 187    |       |
+| vanilla | region_cluster_01_sector_001_b           | +       |            |         |                                               | 199    |       |
+| vanilla | region_cluster_01_sector_001_c           | +       |            |         |                                               | 196    |       |
+| vanilla | region_cluster_01_sector_002             |         |            |         |                                               | 222    |       |
+| vanilla | region_cluster_01_sector_002_a           | +       |            | +       |                                               | 155    |       |
+| vanilla | region_cluster_01_sector_002_b           | +       |            | +       |                                               | 189    |       |
+| vanilla | region_cluster_01_sector_002_c           | +       |            | +       |                                               | 209    |       |
+| vanilla | region_cluster_01_sector_002_d           | +       |            | +       |                                               | 179    |       |
+| vanilla | region_cluster_01_sector_002_e           | +       |            | +       |                                               | 209    |       |
+| vanilla | region_cluster_01_sector_002_f           | +       |            | +       |                                               | 191    |       |
+| vanilla | region_cluster_01_sector_002_g           | +       |            | +       |                                               | 171    |       |
+| vanilla | region_cluster_01_sector_002_h           | +       |            | +       |                                               | 206    |       |
+| vanilla | region_cluster_01_sector_003             |         |            |         |                                               | 223    |       |
+| vanilla | region_cluster_01_sector_003_a           | +       |            | +       |                                               | 225    |       |
+| vanilla | region_cluster_01_sector_003_b           | +       |            |         |                                               | 212    |       |
+| vanilla | region_cluster_01_sector_003_c           | +       |            |         |                                               | 225    |       |
+| vanilla | region_cluster_01_sector_003_d           | +       |            |         | invisible spline                              | 223    |       |
+| vanilla | region_cluster_01_sector_003_e           | +       |            |         |                                               | 207    |       |
+| vanilla | region_cluster_01_sector_003_f           | +       |            |         |                                               | 211    |       |
+| vanilla | region_cluster_02_sector_001             |         | +          |         |                                               | 162    |       |
+| vanilla | region_cluster_02_sector_001b            | +       | +          |         |                                               | 136    |       |
+| vanilla | region_cluster_03_sector_001             |         | +          |         |                                               | 159    |       |
+| vanilla | region_cluster_04_sector_001             |         | +          |         |                                               | 161    |       |
+| vanilla | region2_cluster_04_sector_001            | +       | +          |         |                                               | 203    |       |
+| vanilla | region3_cluster_04_sector_001            |         | +          |         | invisible spline                              | 202    |       |
+| vanilla | region_cluster_04_sector_002             |         | +          |         |                                               | 160    |       |
+| vanilla | region_cluster_05_sector_001             |         | +          |         |                                               | 163    |       |
+| vanilla | region_cluster_06_sector_001             |         | +          |         |                                               | 168    |       |
+| vanilla | region_cluster_06_sector_002             |         | +          |         |                                               | 162    |       |
+| vanilla | region_cluster_07_sector_001             | +       |            |         |                                               | 125    |       |
+| vanilla | region_cluster_08_sector_001             | +       | +          |         |                                               | 82     |       |
+| vanilla | region_cluster_09_sector_001             |         | +          |         |                                               | 162    |       |
+| vanilla | region_cluster_10_sector_001             |         | +          |         |                                               | 158    |       |
+| vanilla | region_cluster_11_sector_001             |         | +          |         |                                               | 159    |       |
+| vanilla | region_cluster_12_sector_001             |         | +          |         |                                               | 162    |       |
+| vanilla | region_cluster_13_sector_001             |         | +          |         |                                               | 195    |       |
+| vanilla | region_cluster_14_sector_001             | +       |            |         |                                               | 168    |       |
+| vanilla | region_cluster_15_sector_001             |         | +          |         |                                               | 166    |       |
+| vanilla | region_cluster_15_sector_002             |         | +          |         |                                               | 168    |       |
+| vanilla | region_cluster_16_sector_001             |         | +          |         |                                               | 157    |       |
+| vanilla | region_cluster_17_sector_001             | +       | +          |         |                                               | 86     |       |
+| vanilla | region_cluster_18_sector_001             |         | +          |         |                                               | 167    |       |
+| vanilla | region_cluster_19_sector_001             |         | +          |         |                                               | 169    |       |
+| vanilla | region_cluster_19_sector_002             |         | +          |         |                                               | 160    |       |
+| vanilla | region_cluster_20_sector_001             |         | +          |         |                                               | 166    |       |
+| vanilla | region_cluster_21_sector_001             |         | +          |         |                                               | 159    |       |
+| vanilla | region_cluster_21_sector_002             |         | +          |         |                                               | 164    |       |
+| vanilla | region_cluster_22_sector_001             |         | +          |         |                                               | 163    |       |
+| vanilla | region_cluster_23_sector_001             |         | +          |         |                                               | 161    |       |
+| vanilla | region_cluster_24_sector_001             |         | +          |         |                                               | 164    |       |
+| vanilla | region_cluster_25_sector_001             | +       | +          |         |                                               | 95     |       |
+| vanilla | region_cluster_25_sector_002             | +       | +          |         |                                               | 118    |       |
+| vanilla | region_cluster_26_sector_001             | +       | +          |         |                                               | 127    |       |
+| vanilla | region_cluster_26_sector_002             | +       | +          | +       |                                               | 140    |       |
+| vanilla | region_cluster_27_sector_001             |         | +          |         |                                               | 217    |       |
+| vanilla | region2_cluster_27_sector_001            | +       | +          |         |                                               | 87     |       |
+| vanilla | region_cluster_28_sector_001             |         | +          |         |                                               | 162    |       |
+| vanilla | regionpart2_cluster_28_sector_001        |         | +          |         |                                               | 221    |       |
+| vanilla | region_cluster_29_sector_001             |         | +          |         |                                               | 164    |       |
+| vanilla | region_cluster_29_sector_002             |         |            |         |                                               | 191    |       |
+| vanilla | region_cluster_30_sector_001             |         | +          |         |                                               | 165    |       |
+| vanilla | region_cluster_31_sector_001             | +       |            |         | heretic'send                                  | 56     | 110   |
+| vanilla | region_cluster_32_sector_001             | +       | +          |         |                                               | 133    |       |
+| vanilla | region_cluster_32_sector_002             | +       | +          |         |                                               | 106    |       |
+| vanilla | region_cluster_33_sector_001             | +       |            |         | example of significant fog that performs well | 156    |       |
+| vanilla | region_cluster_35_sector_001_a           | +       | +          |         |                                               | 79     |       |
+| vanilla | region_cluster_36_sector_001             |         | +          |         |                                               | 156    |       |
+| vanilla | region_cluster_37_sector_001             | +       | +          |         |                                               | 57     |       |
+| vanilla | region_cluster_38_sector_001             | +       | +          |         |                                               | 168    |       |
+| vanilla | region_cluster_38_sector_001_b           | +       | +          |         |                                               | 206    |       |
+| vanilla | region_cluster_40_sector_001             | +       |            |         |                                               | 156    |       |
+| vanilla | demo_region_cluster_40_sector_001        |         |            |         |                                               | 203    |       |
+| vanilla | region_cluster_41_sector_001             | +       |            | +       |                                               | 126    |       |
+| vanilla | region_cluster_43_sector_001             | +       |            |         |                                               | 102    |       |
+| vanilla | region_cluster_44_sector_001             | +       |            |         |                                               | 116    |       |
+| vanilla | region_cluster_45_sector_001             | +       |            |         |                                               | 121    |       |
+| vanilla | region_cluster_46_sector_001             | +       | +          |         |                                               | 184    |       |
+| vanilla | region_cluster_47_sector_001             | +       | +          |         |                                               | 50     |       |
+| vanilla | region_cluster_47_sector_001b            | +       | +          |         |                                               | 41     | 135   |
+| vanilla | region_cluster_48_sector_001             | +       |            |         |                                               | 93     |       |
+| vanilla | region_cluster_49_sector_001             |         | +          |         |                                               | 158    |       |
+| vanilla | region_cluster_50_sector_001             | +       | +          |         |                                               | 54     |       |
+| vanilla | region_cluster_50_sector_002             | +       | +          |         |                                               | 54     |       |
+| vanilla | region_bigasteroids                      | +       |            | +       |                                               | 106    |       |
+| vanilla | specialregion_cluster_14_sector_001      | +       |            |         |                                               | 209    |       |
+| vanilla | audioregion_cluster_14_sector_001        | +       |            |         |                                               | 129    |       |
+| vanilla | unittestasteroidfield                    |         |            |         |                                               | 223    |       |
+| vanilla | mine_field_1                             |         |            |         |                                               | 220    |       |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
+| terran  | TODO                                     |         |            |         |                                               |        |       |
+| pirate  | TODO                                     |         |            |         |                                               |        |       |
+| split   | TODO                                     |         |            |         |                                               |        |       |
+| boron   | TODO                                     |         |            |         |                                               |        |       |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 ```
 
 # development #
@@ -161,7 +215,7 @@ for example for Heretic's End:
   </add>
 </diff>
 ```
-- change the parameters in `<volumetricfog`
+- change the parameters in `<volumetricfog` and possibly in `<positional>` and `<nebula>` (those seem to also be able to generate fog)
 - start the game and set graphic preset to "low", 3840x2160, no AA, no upscale
  (Add `<showfps>true</showfps>` and `<skipintro>true</skipintro>` to `config.xml` to expedite launching
 - load the save 
@@ -185,4 +239,4 @@ Random thoughts:
 - some sectors have seemingly invisible spline shaped fog lines (this may be a bug?)
 - on some sectors the testing positon from the save is not that representative but
 there that's a compromise to have consistent testing.
-
+- long range scanner can cause fog to appear for a while, is there a way to control it?
