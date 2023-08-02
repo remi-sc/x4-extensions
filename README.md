@@ -27,13 +27,13 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | testregion                               | +       |            |         |                                               | 200    |       |
 | vanilla | p1_testregion_field                      |         | +          |         |                                               | 111    |       |
 | vanilla | p1_40km_test_field                       |         |            | +       |                                               | 111    |       |
-| vanilla | p1_40km_test_field2                      |         | +          | +       |                                               | 67     |       |
+| vanilla | p1_40km_test_field2                      |         | +          | +       |                                               | 67     | 104   |
 | vanilla | p1_40km_asteroid_field                   |         |            |         |                                               | 182    |       |
 | vanilla | p1_40km_testregion                       |         |            |         |                                               | 207    |       |
 | vanilla | p1_40km_ice_field                        |         |            |         |                                               | 222    |       |
 | vanilla | region_grav                              | +       |            |         |                                               | 205    |       |
 | vanilla | p1_40km_hydrogen_field                   | +       | +          |         |                                               | 95     |       |
-| vanilla | p1_80km_hydrogen_field                   | +       | +          |         |                                               | 25     |       |
+| vanilla | p1_80km_hydrogen_field                   | +       | +          |         |                                               | 25     | 107   |
 | vanilla | p1_40km_helium_field                     | +       | +          |         |                                               | 80     |       |
 | vanilla | p1_40km_helium_highyield_field           | +       | +          |         |                                               | 80     |       |
 | vanilla | p1_40km_methane_field                    | +       | +          |         |                                               | 82     |       |
@@ -102,7 +102,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_25_sector_001             | +       | +          |         |                                               | 95     |       |
 | vanilla | region_cluster_25_sector_002             | +       | +          |         |                                               | 118    |       |
 | vanilla | region_cluster_26_sector_001             | +       | +          |         |                                               | 127    |       |
-| vanilla | region_cluster_26_sector_002             | +       | +          | +       |                                               | 140    |       |
+| vanilla | region_cluster_26_sector_002             | +       | +          | +       | complex but good performance                  | 140    |       |
 | vanilla | region_cluster_27_sector_001             |         | +          |         |                                               | 217    |       |
 | vanilla | region2_cluster_27_sector_001            | +       | +          |         |                                               | 87     |       |
 | vanilla | region_cluster_28_sector_001             |         | +          |         |                                               | 162    |       |
@@ -116,7 +116,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_33_sector_001             | +       |            |         | example of significant fog that performs well | 156    |       |
 | vanilla | region_cluster_35_sector_001_a           | +       | +          |         |                                               | 79     |       |
 | vanilla | region_cluster_36_sector_001             |         | +          |         |                                               | 156    |       |
-| vanilla | region_cluster_37_sector_001             | +       | +          |         |                                               | 57     |       |
+| vanilla | region_cluster_37_sector_001             | +       | +          |         |                                               | 57     | 111   |
 | vanilla | region_cluster_38_sector_001             | +       | +          |         |                                               | 168    |       |
 | vanilla | region_cluster_38_sector_001_b           | +       | +          |         |                                               | 206    |       |
 | vanilla | region_cluster_40_sector_001             | +       |            |         |                                               | 156    |       |
@@ -126,22 +126,110 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_44_sector_001             | +       |            |         |                                               | 116    |       |
 | vanilla | region_cluster_45_sector_001             | +       |            |         |                                               | 121    |       |
 | vanilla | region_cluster_46_sector_001             | +       | +          |         |                                               | 184    |       |
-| vanilla | region_cluster_47_sector_001             | +       | +          |         |                                               | 50     |       |
-| vanilla | region_cluster_47_sector_001b            | +       | +          |         |                                               | 41     | 135   |
+| vanilla | region_cluster_47_sector_001             | +       | +          |         |                                               | 50     | 117   |
+| vanilla | region_cluster_47_sector_001b            | +       | +          |         |                                               | 41     | 100   |
 | vanilla | region_cluster_48_sector_001             | +       |            |         |                                               | 93     |       |
 | vanilla | region_cluster_49_sector_001             |         | +          |         |                                               | 158    |       |
-| vanilla | region_cluster_50_sector_001             | +       | +          |         |                                               | 54     |       |
-| vanilla | region_cluster_50_sector_002             | +       | +          |         |                                               | 54     |       |
+| vanilla | region_cluster_50_sector_001             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 115   |
+| vanilla | region_cluster_50_sector_002             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 116   |
 | vanilla | region_bigasteroids                      | +       |            | +       |                                               | 106    |       |
 | vanilla | specialregion_cluster_14_sector_001      | +       |            |         |                                               | 209    |       |
 | vanilla | audioregion_cluster_14_sector_001        | +       |            |         |                                               | 129    |       |
 | vanilla | unittestasteroidfield                    |         |            |         |                                               | 223    |       |
 | vanilla | mine_field_1                             |         |            |         |                                               | 220    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| terran  | TODO                                     |         |            |         |                                               |        |       |
-| pirate  | TODO                                     |         |            |         |                                               |        |       |
-| split   | TODO                                     |         |            |         |                                               |        |       |
-| boron   | TODO                                     |         |            |         |                                               |        |       |
+| terran  |torus_radiation_1                         |         |            |         |                                               |        |       |
+| terran  |torus_radiation_2                         |         |            |         |                                               |        |       |
+| terran  |torus_radiation1b                         |         |            |         |                                               |        |       |
+| terran  |torus_radiation2b                         |         |            |         |                                               |        |       |
+| terran  |asteroidbelt_main                         |         |            |         |                                               |        |       |
+| terran  |blue_pink_large                           |         |            |         |                                               |        |       |
+| terran  |mercury_field                             |         |            |         |                                               |        |       |
+| terran  |saturn_field                              |         |            |         |                                               |        |       |
+| terran  |titan_field                               |         |            |         |                                               |        |       |
+| terran  |neptune_field                             |         |            |         |                                               |        |       |
+| terran  |oort_field                                |         |            |         |                                               |        |       |
+| terran  |cluster114_region01                       |         |            |         |                                               |        |       |
+| terran  |cluster112_s1_region01                    |         |            |         |                                               |        |       |
+| terran  |cluster112_s2_region01                    |         |            |         |                                               |        |       |
+| terran  |cluster113_region01                       |         |            |         |                                               |        |       |
+| terran  |cluster113_region02                       |         |            |         |                                               |        |       |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
+| pirate  | wave_main                                |         |            |         |                                               |        |       |
+| pirate  | wave_active                              |         |            |         |                                               |        |       |
+| pirate  | wave_asteroids                           |         |            |         |                                               |        |       |
+| pirate  | s2_grav                                  |         |            |         |                                               |        |       |
+| pirate  | s2_grav_small                            |         |            |         |                                               |        |       |
+| pirate  | s2_grav_small_v2                         |         |            |         |                                               |        |       |
+| pirate  | region_c501s01_base                      |         |            |         |                                               |        |       |
+| pirate  | region_c502s01_base                      |         |            |         |                                               |        |       |
+| pirate  | region_c502s01_scrap                     |         |            |         |                                               |        |       |
+| pirate  | region_c503s01_casino                    |         |            |         |                                               |        |       |
+| pirate  | region_c503s01_casino2                   |         |            |         |                                               |        |       |
+| pirate  | region_c503s01_casino3                   |         |            |         |                                               |        |       |
+| pirate  | region_c503s01_base                      |         |            |         |                                               |        |       |
+| pirate  | region504wave_active                     |         |            |         |                                               |        |       |
+| pirate  | region504_asteroids                      |         |            |         |                                               |        |       |
+| pirate  | region504_grav                           |         |            |         |                                               |        |       |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
+| split   | region_cluster_401_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_402_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_410_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_411_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_411_sector_001_b          |         |            |         |                                               |        |       |
+| split   | region_cluster_412_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_413_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_414_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_415_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_416_sector_002            |         |            |         |                                               |        |       |
+| split   | region_cluster_418_sector_001_b          |         |            |         |                                               |        |       |
+| split   | region_cluster_418_sector_001_c          |         |            |         |                                               |        |       |
+| split   | region_cluster_418_sector_001_d          |         |            |         |                                               |        |       |
+| split   | region_cluster_420_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_421_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_422_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_424_sector_002            |         |            |         |                                               |        |       |
+| split   | region_cluster_425_sector_001            |         |            |         |                                               |        |       |
++---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
+| boron   | c601s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c601s1_region2                           |         |            |         |                                               |        |       |
+| boron   | c601s1_region3                           |         |            |         |                                               |        |       |
+| boron   | c601s1_region4                           |         |            |         |                                               |        |       |
+| boron   | c602s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c602s1_region1sm                         |         |            |         |                                               |        |       |
+| boron   | c603s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c604s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region                            |         |            |         |                                               |        |       |
+| boron   | c605s1_region1sm                         |         |            |         |                                               |        |       |
+| boron   | c605s1_region2sm                         |         |            |         |                                               |        |       |
+| boron   | c605s1_region2                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region3                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region4                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region5                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region6                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region7                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region8                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region9                           |         |            |         |                                               |        |       |
+| boron   | c605s1_region10                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region12                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region13                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region14                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region15                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region16                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region17                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region18                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region19                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region20                          |         |            |         |                                               |        |       |
+| boron   | c606s1_region                            |         |            |         |                                               |        |       |
+| boron   | c606s1_regionsm                          |         |            |         |                                               |        |       |
+| boron   | c606s1_region2sm                         |         |            |         |                                               |        |       |
+| boron   | c606s1_region3sm                         |         |            |         |                                               |        |       |
+| boron   | c606s2_region                            |         |            |         |                                               |        |       |
+| boron   | c606s3_region                            |         |            |         |                                               |        |       |
+| boron   | c607s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c607s1_region2                           |         |            |         |                                               |        |       |
+| boron   | c608s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c609s1_region1                           |         |            |         |                                               |        |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 ```
 
@@ -215,9 +303,10 @@ for example for Heretic's End:
   </add>
 </diff>
 ```
-- change the parameters in `<volumetricfog` and possibly in `<positional>` and `<nebula>` (those seem to also be able to generate fog)
 - start the game and set graphic preset to "low", 3840x2160, no AA, no upscale
  (Add `<showfps>true</showfps>` and `<skipintro>true</skipintro>` to `config.xml` to expedite launching
+- change the parameters in `<volumetricfog` and possibly in `<positional>` and `<nebula>` (those seem to also be able to generate fog)
+  good to have a screenshot of unmodified region
 - load the save 
 - check fps without moving the camera
 - rince and repeat until going through all problematic sectors
