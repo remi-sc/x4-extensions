@@ -32,17 +32,17 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | p1_40km_testregion                       |         |            |         |                                               | 207    |       |
 | vanilla | p1_40km_ice_field                        |         |            |         |                                               | 222    |       |
 | vanilla | region_grav                              | +       |            |         |                                               | 205    |       |
-| vanilla | p1_40km_hydrogen_field                   | +       | +          |         |                                               | 95     |       |
+| vanilla | p1_40km_hydrogen_field                   | +       | +          |         |                                               | 95     | 105   |
 | vanilla | p1_80km_hydrogen_field                   | +       | +          |         |                                               | 25     | 107   |
-| vanilla | p1_40km_helium_field                     | +       | +          |         |                                               | 80     |       |
-| vanilla | p1_40km_helium_highyield_field           | +       | +          |         |                                               | 80     |       |
-| vanilla | p1_40km_methane_field                    | +       | +          |         |                                               | 82     |       |
-| vanilla | p1_40km_methane_highyield_field          | +       | +          |         |                                               | 84     |       |
+| vanilla | p1_40km_helium_field                     | +       | +          |         |                                               | 80     | 108   |
+| vanilla | p1_40km_helium_highyield_field           | +       | +          |         |                                               | 80     | 106   |
+| vanilla | p1_40km_methane_field                    | +       | +          |         |                                               | 82     | 108   |
+| vanilla | p1_40km_methane_highyield_field          | +       | +          |         |                                               | 84     | 110   |
 | vanilla | region_highyield_ore                     |         |            | +       |                                               | 206    |       |
 | vanilla | region_highyield_silicon                 |         |            | +       |                                               | 206    |       |
 | vanilla | region_highyield_nividium                |         |            | +       |                                               | 160    |       |
 | vanilla | p1_gravity_field                         |         |            |         |                                               | 114    |       |
-| vanilla | p1_wreckfield_xenon_battle_60km          | +       | +          |         |                                               | 99     |       |
+| vanilla | p1_wreckfield_xenon_battle_60km          | +       | +          |         |                                               | 99     | 107   |
 | vanilla | p1_wreckfield_xenon_teladi_battle_200km  | +       | +          |         |                                               | 105    |       |
 | vanilla | p1_wreckfield_xenon_teladi_10km          | +       | +          |         |                                               | 176    |       |
 | vanilla | p1_wreckfield_xenon_split_cluster32      | +       |            |         |                                               | 154    |       |
@@ -79,7 +79,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_06_sector_001             |         | +          |         |                                               | 168    |       |
 | vanilla | region_cluster_06_sector_002             |         | +          |         |                                               | 162    |       |
 | vanilla | region_cluster_07_sector_001             | +       |            |         |                                               | 125    |       |
-| vanilla | region_cluster_08_sector_001             | +       | +          |         |                                               | 82     |       |
+| vanilla | region_cluster_08_sector_001             | +       | +          |         |                                               | 82     | 106   |
 | vanilla | region_cluster_09_sector_001             |         | +          |         |                                               | 162    |       |
 | vanilla | region_cluster_10_sector_001             |         | +          |         |                                               | 158    |       |
 | vanilla | region_cluster_11_sector_001             |         | +          |         |                                               | 159    |       |
@@ -89,7 +89,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_15_sector_001             |         | +          |         |                                               | 166    |       |
 | vanilla | region_cluster_15_sector_002             |         | +          |         |                                               | 168    |       |
 | vanilla | region_cluster_16_sector_001             |         | +          |         |                                               | 157    |       |
-| vanilla | region_cluster_17_sector_001             | +       | +          |         |                                               | 86     |       |
+| vanilla | region_cluster_17_sector_001             | +       | +          |         |                                               | 86     | 105   |
 | vanilla | region_cluster_18_sector_001             |         | +          |         |                                               | 167    |       |
 | vanilla | region_cluster_19_sector_001             |         | +          |         |                                               | 169    |       |
 | vanilla | region_cluster_19_sector_002             |         | +          |         |                                               | 160    |       |
@@ -99,12 +99,12 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_22_sector_001             |         | +          |         |                                               | 163    |       |
 | vanilla | region_cluster_23_sector_001             |         | +          |         |                                               | 161    |       |
 | vanilla | region_cluster_24_sector_001             |         | +          |         |                                               | 164    |       |
-| vanilla | region_cluster_25_sector_001             | +       | +          |         |                                               | 95     |       |
+| vanilla | region_cluster_25_sector_001             | +       | +          |         |                                               | 95     | 109   |
 | vanilla | region_cluster_25_sector_002             | +       | +          |         |                                               | 118    |       |
 | vanilla | region_cluster_26_sector_001             | +       | +          |         |                                               | 127    |       |
 | vanilla | region_cluster_26_sector_002             | +       | +          | +       | complex but good performance                  | 140    |       |
 | vanilla | region_cluster_27_sector_001             |         | +          |         |                                               | 217    |       |
-| vanilla | region2_cluster_27_sector_001            | +       | +          |         |                                               | 87     |       |
+| vanilla | region2_cluster_27_sector_001            | +       | +          |         |                                               | 87     | 108   |
 | vanilla | region_cluster_28_sector_001             |         | +          |         |                                               | 162    |       |
 | vanilla | regionpart2_cluster_28_sector_001        |         | +          |         |                                               | 221    |       |
 | vanilla | region_cluster_29_sector_001             |         | +          |         |                                               | 164    |       |
@@ -114,7 +114,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_32_sector_001             | +       | +          |         |                                               | 133    |       |
 | vanilla | region_cluster_32_sector_002             | +       | +          |         |                                               | 106    |       |
 | vanilla | region_cluster_33_sector_001             | +       |            |         | example of significant fog that performs well | 156    |       |
-| vanilla | region_cluster_35_sector_001_a           | +       | +          |         |                                               | 79     |       |
+| vanilla | region_cluster_35_sector_001_a           | +       | +          |         |                                               | 79     | 108   |
 | vanilla | region_cluster_36_sector_001             |         | +          |         |                                               | 156    |       |
 | vanilla | region_cluster_37_sector_001             | +       | +          |         |                                               | 57     | 111   |
 | vanilla | region_cluster_38_sector_001             | +       | +          |         |                                               | 168    |       |
@@ -128,7 +128,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_46_sector_001             | +       | +          |         |                                               | 184    |       |
 | vanilla | region_cluster_47_sector_001             | +       | +          |         |                                               | 50     | 117   |
 | vanilla | region_cluster_47_sector_001b            | +       | +          |         |                                               | 41     | 100   |
-| vanilla | region_cluster_48_sector_001             | +       |            |         |                                               | 93     |       |
+| vanilla | region_cluster_48_sector_001             | +       |            |         |                                               | 93     | 111   |
 | vanilla | region_cluster_49_sector_001             |         | +          |         |                                               | 158    |       |
 | vanilla | region_cluster_50_sector_001             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 115   |
 | vanilla | region_cluster_50_sector_002             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 116   |

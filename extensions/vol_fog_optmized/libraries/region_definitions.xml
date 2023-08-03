@@ -65,4 +65,54 @@
 
   <replace sel="/regions/region[@name='p1_40km_test_field2']/fields/positional[@ref='fog_outside_set3_macro']/@densityfactor">1.25</replace>
   <replace sel="/regions/region[@name='p1_40km_test_field2']/fields/positional[@ref='fog_outside_set3_macro']/@minnoisevalue">0.35</replace>
+
+  <replace sel="/regions/region[@name='p1_40km_hydrogen_field']/fields/volumetricfog/@densityfactor">0.25</replace>
+  <replace sel="/regions/region[@name='p1_40km_hydrogen_field']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='p1_wreckfield_xenon_battle_60km']/fields/volumetricfog/@densityfactor">0.20</replace>
+  <replace sel="/regions/region[@name='p1_wreckfield_xenon_battle_60km']/fields/volumetricfog/@minnoisevalue">0.20</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_08_sector_001']/fields/volumetricfog/@multiplier">0.2</replace>
+  <replace sel="/regions/region[@name='region_cluster_08_sector_001']/fields/volumetricfog/@size">36000</replace>
+  <replace sel="/regions/region[@name='region_cluster_08_sector_001']/fields/volumetricfog/@densityfactor">0.1</replace>
+  <replace sel="/regions/region[@name='region_cluster_08_sector_001']/fields/volumetricfog/@noisescale">24000</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_17_sector_001']/fields/volumetricfog/@multiplier">0.40</replace>
+  <replace sel="/regions/region[@name='region_cluster_17_sector_001']/fields/volumetricfog/@densityfactor">0.07</replace>
+  <replace sel="/regions/region[@name='region_cluster_17_sector_001']/fields/volumetricfog/@noisescale">20000</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_25_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive']/@size">200000</replace>
+  <replace sel="/regions/region[@name='region_cluster_25_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive']/@densityfactor">0.0012</replace>
+
+  <replace sel="/regions/region[@name='region2_cluster_27_sector_001']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='region2_cluster_27_sector_001']/fields/volumetricfog/@size">16000</replace>
+  <replace sel="/regions/region[@name='region2_cluster_27_sector_001']/fields/volumetricfog/@densityfactor">0.12</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_35_sector_001_a']/fields/volumetricfog/@multiplier">0.016</replace>
+  <replace sel="/regions/region[@name='region_cluster_35_sector_001_a']/fields/volumetricfog/@densityfactor">0.025</replace>
+  <replace sel="/regions/region[@name='region_cluster_35_sector_001_a']/fields/volumetricfog/@noisescale">13000</replace>
+  <replace sel="/regions/region[@name='region_cluster_35_sector_001_a']/fields/volumetricfog/@minnoisevalue">0.5</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_48_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive']/@size">30000</replace>
+  <replace sel="/regions/region[@name='region_cluster_48_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive']/@densityfactor">0.1</replace>
+
+  <replace sel="/regions/region[@name='p1_40km_helium_field']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_field']/fields/volumetricfog/@size">10500</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_field']/fields/volumetricfog/@densityfactor">0.2</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_field']/fields/volumetricfog/@minnoisevalue">0.45</replace>
+
+  <replace sel="/regions/region[@name='p1_40km_helium_highyield_field']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_highyield_field']/fields/volumetricfog/@size">10500</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_highyield_field']/fields/volumetricfog/@densityfactor">0.2</replace>
+  <replace sel="/regions/region[@name='p1_40km_helium_highyield_field']/fields/volumetricfog/@minnoisevalue">0.45</replace>
+
+  <replace sel="/regions/region[@name='p1_40km_methane_field']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_field']/fields/volumetricfog/@size">10500</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_field']/fields/volumetricfog/@densityfactor">0.3</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_field']/fields/volumetricfog/@minnoisevalue">0.45</replace>
+
+  <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@size">10500</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@densityfactor">0.3</replace>
+  <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@minnoisevalue">0.45</replace>
 </diff>
