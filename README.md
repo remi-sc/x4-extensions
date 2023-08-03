@@ -155,22 +155,22 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | terran  |cluster113_region01                       | +       | +          |         |                                               | 91     |       |
 | terran  |cluster113_region02                       | +       |            |         |                                               | 191    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| pirate  | wave_main                                | +       |            |         |                                               |        |       |
-| pirate  | wave_active                              | +       | +          |         |                                               |        |       |
-| pirate  | wave_asteroids                           |         | +          |         |                                               |        |       |
-| pirate  | s2_grav                                  | +       |            |         |                                               |        |       |
-| pirate  | s2_grav_small                            | +       |            |         |                                               |        |       |
-| pirate  | s2_grav_small_v2                         | +       |            |         |                                               |        |       |
-| pirate  | region_c501s01_base                      | +       | +          |         |                                               |        |       |
-| pirate  | region_c502s01_base                      | +       | +          |         |                                               |        |       |
-| pirate  | region_c502s01_scrap                     | +       | +          |         |                                               |        |       |
-| pirate  | region_c503s01_casino                    | +       |            |         |                                               |        |       |
-| pirate  | region_c503s01_casino2                   | +       |            |         |                                               |        |       |
-| pirate  | region_c503s01_casino3                   |         |            |         |                                               |        |       |
-| pirate  | region_c503s01_base                      | +       | +          |         |                                               |        |       |
-| pirate  | region504wave_active                     | +       | +          |         |                                               |        |       |
-| pirate  | region504_asteroids                      |         |            |         |                                               |        |       |
-| pirate  | region504_grav                           | +       |            |         |                                               |        |       |
+| pirate  | wave_main                                | +       |            |         | nice deep red fog with good performance       | 158    |       |
+| pirate  | wave_active                              | +       | +          |         |                                               | 90     |       |
+| pirate  | wave_asteroids                           |         | +          |         |                                               | 108    |       |
+| pirate  | s2_grav                                  | +       |            |         |                                               | 198    |       |
+| pirate  | s2_grav_small                            | +       |            |         |                                               | 108    |       |
+| pirate  | s2_grav_small_v2                         | +       |            |         |                                               | 149    |       |
+| pirate  | region_c501s01_base                      | +       | +          |         |                                               | 85     |       |
+| pirate  | region_c502s01_base                      | +       | +          |         |                                               | 78     |       |
+| pirate  | region_c502s01_scrap                     | +       | +          |         |                                               | 169    |       |
+| pirate  | region_c503s01_casino                    | +       |            |         |                                               | 164    |       |
+| pirate  | region_c503s01_casino2                   | +       |            |         |                                               | 172    |       |
+| pirate  | region_c503s01_casino3                   |         |            |         |                                               | 200    |       |
+| pirate  | region_c503s01_base                      | +       | +          |         |                                               | 106    |       |
+| pirate  | region504wave_active                     | +       | +          |         |                                               | 116    |       |
+| pirate  | region504_asteroids                      |         |            |         |                                               | 210    |       |
+| pirate  | region504_grav                           | +       |            |         |                                               | 136    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 | split   | region_cluster_401_sector_001            | +       | +          |         |                                               |        |       |
 | split   | region_cluster_402_sector_001            |         |            |         |                                               |        |       |
