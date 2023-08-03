@@ -7,9 +7,9 @@
   <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@minnoisevalue">0.81</replace>
   <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@maxnoisevalue">0.89</replace>
   <!-- alternative heretics end optimized settings
-  <replace sel="/regions/region[@name='audioregion_cluster_40_sector_001']/fields/volumetricfog/@multiplier">0.25</replace>
-  <replace sel="/regions/region[@name='audioregion_cluster_40_sector_001']/fields/volumetricfog/@size">38000</replace>
-  <replace sel="/regions/region[@name='audioregion_cluster_40_sector_001']/fields/volumetricfog/@densityfactor">0.05</replace>
+  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@multiplier">0.25</replace>
+  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@size">38000</replace>
+  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@densityfactor">0.05</replace>
   -->
 
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/fields/volumetricfog[@medium='fog_red']/@multiplier">1.51</replace>
