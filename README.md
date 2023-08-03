@@ -138,79 +138,79 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | unittestasteroidfield                    |         |            |         |                                               | 223    |       |
 | vanilla | mine_field_1                             |         |            |         |                                               | 220    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| terran  |torus_radiation_1                         |         |            |         |                                               |        |       |
-| terran  |torus_radiation_2                         |         |            |         |                                               |        |       |
-| terran  |torus_radiation1b                         |         |            |         |                                               |        |       |
-| terran  |torus_radiation2b                         |         |            |         |                                               |        |       |
-| terran  |asteroidbelt_main                         |         |            |         |                                               |        |       |
-| terran  |blue_pink_large                           |         |            |         |                                               |        |       |
-| terran  |mercury_field                             |         |            |         |                                               |        |       |
-| terran  |saturn_field                              |         |            |         |                                               |        |       |
-| terran  |titan_field                               |         |            |         |                                               |        |       |
-| terran  |neptune_field                             |         |            |         |                                               |        |       |
-| terran  |oort_field                                |         |            |         |                                               |        |       |
-| terran  |cluster114_region01                       |         |            |         |                                               |        |       |
-| terran  |cluster112_s1_region01                    |         |            |         |                                               |        |       |
-| terran  |cluster112_s2_region01                    |         |            |         |                                               |        |       |
-| terran  |cluster113_region01                       |         |            |         |                                               |        |       |
-| terran  |cluster113_region02                       |         |            |         |                                               |        |       |
+| terran  |torus_radiation_1                         |         |            |         |                                               | 211    |       |
+| terran  |torus_radiation_2                         |         |            |         |                                               | 214    |       |
+| terran  |torus_radiation1b                         |         |            |         |                                               | 216    |       |
+| terran  |torus_radiation2b                         |         |            |         |                                               | 217    |       |
+| terran  |asteroidbelt_main                         | +       | +          |         |                                               | 46     |       |
+| terran  |blue_pink_large                           | +       | +          |         |                                               | 43     |       |
+| terran  |mercury_field                             |         | +          |         |                                               | 164    |       |
+| terran  |saturn_field                              | +       | +          |         | weird falloff, I see anything                 | 214    |       |
+| terran  |titan_field                               |         | +          |         | again - cant see any nebulas                  | 131    |       |
+| terran  |neptune_field                             |         | +          |         | same as above                                 | 129    |       |
+| terran  |oort_field                                |         | +          |         | same as above                                 | 113    |       |
+| terran  |cluster114_region01                       | +       | +          |         |                                               | 66     |       |
+| terran  |cluster112_s1_region01                    | +       | +          |         |                                               | 70     |       |
+| terran  |cluster112_s2_region01                    | +       | +          |         |                                               | 70     |       |
+| terran  |cluster113_region01                       | +       | +          |         |                                               | 91     |       |
+| terran  |cluster113_region02                       | +       |            |         |                                               | 191    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| pirate  | wave_main                                |         |            |         |                                               |        |       |
-| pirate  | wave_active                              |         |            |         |                                               |        |       |
-| pirate  | wave_asteroids                           |         |            |         |                                               |        |       |
-| pirate  | s2_grav                                  |         |            |         |                                               |        |       |
-| pirate  | s2_grav_small                            |         |            |         |                                               |        |       |
-| pirate  | s2_grav_small_v2                         |         |            |         |                                               |        |       |
-| pirate  | region_c501s01_base                      |         |            |         |                                               |        |       |
-| pirate  | region_c502s01_base                      |         |            |         |                                               |        |       |
-| pirate  | region_c502s01_scrap                     |         |            |         |                                               |        |       |
-| pirate  | region_c503s01_casino                    |         |            |         |                                               |        |       |
-| pirate  | region_c503s01_casino2                   |         |            |         |                                               |        |       |
+| pirate  | wave_main                                | +       |            |         |                                               |        |       |
+| pirate  | wave_active                              | +       | +          |         |                                               |        |       |
+| pirate  | wave_asteroids                           |         | +          |         |                                               |        |       |
+| pirate  | s2_grav                                  | +       |            |         |                                               |        |       |
+| pirate  | s2_grav_small                            | +       |            |         |                                               |        |       |
+| pirate  | s2_grav_small_v2                         | +       |            |         |                                               |        |       |
+| pirate  | region_c501s01_base                      | +       | +          |         |                                               |        |       |
+| pirate  | region_c502s01_base                      | +       | +          |         |                                               |        |       |
+| pirate  | region_c502s01_scrap                     | +       | +          |         |                                               |        |       |
+| pirate  | region_c503s01_casino                    | +       |            |         |                                               |        |       |
+| pirate  | region_c503s01_casino2                   | +       |            |         |                                               |        |       |
 | pirate  | region_c503s01_casino3                   |         |            |         |                                               |        |       |
-| pirate  | region_c503s01_base                      |         |            |         |                                               |        |       |
-| pirate  | region504wave_active                     |         |            |         |                                               |        |       |
+| pirate  | region_c503s01_base                      | +       | +          |         |                                               |        |       |
+| pirate  | region504wave_active                     | +       | +          |         |                                               |        |       |
 | pirate  | region504_asteroids                      |         |            |         |                                               |        |       |
-| pirate  | region504_grav                           |         |            |         |                                               |        |       |
+| pirate  | region504_grav                           | +       |            |         |                                               |        |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| split   | region_cluster_401_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_401_sector_001            | +       | +          |         |                                               |        |       |
 | split   | region_cluster_402_sector_001            |         |            |         |                                               |        |       |
 | split   | region_cluster_410_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_411_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_411_sector_001_b          |         |            |         |                                               |        |       |
-| split   | region_cluster_412_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_413_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_411_sector_001            | +       | +          |         |                                               |        |       |
+| split   | region_cluster_411_sector_001_b          | +       |            |         |                                               |        |       |
+| split   | region_cluster_412_sector_001            | +       |            |         |                                               |        |       |
+| split   | region_cluster_413_sector_001            | +       | +          |         |                                               |        |       |
 | split   | region_cluster_414_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_415_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_415_sector_001            |         | +          |         |                                               |        |       |
 | split   | region_cluster_416_sector_002            |         |            |         |                                               |        |       |
 | split   | region_cluster_418_sector_001_b          |         |            |         |                                               |        |       |
 | split   | region_cluster_418_sector_001_c          |         |            |         |                                               |        |       |
-| split   | region_cluster_418_sector_001_d          |         |            |         |                                               |        |       |
-| split   | region_cluster_420_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_418_sector_001_d          |         | +          |         |                                               |        |       |
+| split   | region_cluster_420_sector_001            | +       |            |         |                                               |        |       |
 | split   | region_cluster_421_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_422_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_422_sector_001            | +       |            |         |                                               |        |       |
 | split   | region_cluster_424_sector_002            |         |            |         |                                               |        |       |
 | split   | region_cluster_425_sector_001            |         |            |         |                                               |        |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| boron   | c601s1_region1                           |         |            |         |                                               |        |       |
-| boron   | c601s1_region2                           |         |            |         |                                               |        |       |
-| boron   | c601s1_region3                           |         |            |         |                                               |        |       |
-| boron   | c601s1_region4                           |         |            |         |                                               |        |       |
-| boron   | c602s1_region1                           |         |            |         |                                               |        |       |
-| boron   | c602s1_region1sm                         |         |            |         |                                               |        |       |
-| boron   | c603s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c601s1_region1                           | +       | +          |         |                                               |        |       |
+| boron   | c601s1_region2                           | +       | +          |         |                                               |        |       |
+| boron   | c601s1_region3                           | +       |            |         |                                               |        |       |
+| boron   | c601s1_region4                           | +       |            |         |                                               |        |       |
+| boron   | c602s1_region1                           | +       |            |         |                                               |        |       |
+| boron   | c602s1_region1sm                         | +       |            |         |                                               |        |       |
+| boron   | c603s1_region1                           | +       | +          |         |                                               |        |       |
 | boron   | c604s1_region1                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region                            |         |            |         |                                               |        |       |
-| boron   | c605s1_region1sm                         |         |            |         |                                               |        |       |
-| boron   | c605s1_region2sm                         |         |            |         |                                               |        |       |
-| boron   | c605s1_region2                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region3                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region4                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region5                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region6                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region7                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region8                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region9                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region10                          |         |            |         |                                               |        |       |
+| boron   | c605s1_region                            | +       | +          |         |                                               |        |       |
+| boron   | c605s1_region1sm                         | +       | +          |         |                                               |        |       |
+| boron   | c605s1_region2sm                         | +       |            |         |                                               |        |       |
+| boron   | c605s1_region2                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region3                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region4                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region5                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region6                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region7                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region8                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region9                           | +       |            |         |                                               |        |       |
+| boron   | c605s1_region10                          | +       |            |         |                                               |        |       |
 | boron   | c605s1_region12                          |         |            |         |                                               |        |       |
 | boron   | c605s1_region13                          |         |            |         |                                               |        |       |
 | boron   | c605s1_region14                          |         |            |         |                                               |        |       |
@@ -222,14 +222,14 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | boron   | c605s1_region20                          |         |            |         |                                               |        |       |
 | boron   | c606s1_region                            |         |            |         |                                               |        |       |
 | boron   | c606s1_regionsm                          |         |            |         |                                               |        |       |
-| boron   | c606s1_region2sm                         |         |            |         |                                               |        |       |
-| boron   | c606s1_region3sm                         |         |            |         |                                               |        |       |
-| boron   | c606s2_region                            |         |            |         |                                               |        |       |
-| boron   | c606s3_region                            |         |            |         |                                               |        |       |
-| boron   | c607s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c606s1_region2sm                         | +       |            |         |                                               |        |       |
+| boron   | c606s1_region3sm                         | +       |            |         |                                               |        |       |
+| boron   | c606s2_region                            | +       | +          |         |                                               |        |       |
+| boron   | c606s3_region                            | +       |            |         |                                               |        |       |
+| boron   | c607s1_region1                           | +       | +          |         |                                               |        |       |
 | boron   | c607s1_region2                           |         |            |         |                                               |        |       |
-| boron   | c608s1_region1                           |         |            |         |                                               |        |       |
-| boron   | c609s1_region1                           |         |            |         |                                               |        |       |
+| boron   | c608s1_region1                           | +       | +          |         |                                               |        |       |
+| boron   | c609s1_region1                           | +       | +          |         |                                               |        |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 ```
 
