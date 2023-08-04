@@ -172,64 +172,64 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | pirate  | region504_asteroids                      |         |            |         |                                               | 210    |       |
 | pirate  | region504_grav                           | +       |            |         |                                               | 136    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| split   | region_cluster_401_sector_001            | +       | +          |         |                                               |        |       |
-| split   | region_cluster_402_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_410_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_411_sector_001            | +       | +          |         |                                               |        |       |
-| split   | region_cluster_411_sector_001_b          | +       |            |         |                                               |        |       |
-| split   | region_cluster_412_sector_001            | +       |            |         |                                               |        |       |
-| split   | region_cluster_413_sector_001            | +       | +          |         |                                               |        |       |
-| split   | region_cluster_414_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_415_sector_001            |         | +          |         |                                               |        |       |
-| split   | region_cluster_416_sector_002            |         |            |         |                                               |        |       |
-| split   | region_cluster_418_sector_001_b          |         |            |         |                                               |        |       |
-| split   | region_cluster_418_sector_001_c          |         |            |         |                                               |        |       |
-| split   | region_cluster_418_sector_001_d          |         | +          |         |                                               |        |       |
-| split   | region_cluster_420_sector_001            | +       |            |         |                                               |        |       |
-| split   | region_cluster_421_sector_001            |         |            |         |                                               |        |       |
-| split   | region_cluster_422_sector_001            | +       |            |         |                                               |        |       |
-| split   | region_cluster_424_sector_002            |         |            |         |                                               |        |       |
-| split   | region_cluster_425_sector_001            |         |            |         |                                               |        |       |
+| split   | region_cluster_401_sector_001            | +       | +          |         |                                               | 71     |       |
+| split   | region_cluster_402_sector_001            |         |            |         |                                               | 213    |       |
+| split   | region_cluster_410_sector_001            |         |            |         |                                               | 213    |       |
+| split   | region_cluster_411_sector_001            | +       | +          |         |                                               | 97     |       |
+| split   | region_cluster_411_sector_001_b          | +       |            |         |                                               | 205    |       |
+| split   | region_cluster_412_sector_001            | +       |            |         |                                               | 89     |       |
+| split   | region_cluster_413_sector_001            | +       | +          |         |                                               | 28     |       |
+| split   | region_cluster_414_sector_001            |         |            |         |                                               | 212    |       |
+| split   | region_cluster_415_sector_001            |         | +          |         |                                               | 155    |       |
+| split   | region_cluster_416_sector_002            |         |            |         |                                               | 217    |       |
+| split   | region_cluster_418_sector_001_b          |         |            |         |                                               | 207    |       |
+| split   | region_cluster_418_sector_001_c          |         |            |         |                                               | 210    |       |
+| split   | region_cluster_418_sector_001_d          |         | +          |         |                                               | 86     |       |
+| split   | region_cluster_420_sector_001            | +       |            |         |                                               | 101    |       |
+| split   | region_cluster_421_sector_001            |         |            |         |                                               | 205    |       |
+| split   | region_cluster_422_sector_001            | +       |            |         |                                               | 144    |       |
+| split   | region_cluster_424_sector_002            |         |            |         |                                               | 205    |       |
+| split   | region_cluster_425_sector_001            |         |            |         |                                               | 207    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| boron   | c601s1_region1                           | +       | +          |         |                                               |        |       |
-| boron   | c601s1_region2                           | +       | +          |         |                                               |        |       |
-| boron   | c601s1_region3                           | +       |            |         |                                               |        |       |
-| boron   | c601s1_region4                           | +       |            |         |                                               |        |       |
-| boron   | c602s1_region1                           | +       |            |         |                                               |        |       |
-| boron   | c602s1_region1sm                         | +       |            |         |                                               |        |       |
-| boron   | c603s1_region1                           | +       | +          |         |                                               |        |       |
-| boron   | c604s1_region1                           |         |            |         |                                               |        |       |
-| boron   | c605s1_region                            | +       | +          |         |                                               |        |       |
-| boron   | c605s1_region1sm                         | +       | +          |         |                                               |        |       |
-| boron   | c605s1_region2sm                         | +       |            |         |                                               |        |       |
-| boron   | c605s1_region2                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region3                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region4                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region5                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region6                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region7                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region8                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region9                           | +       |            |         |                                               |        |       |
-| boron   | c605s1_region10                          | +       |            |         |                                               |        |       |
-| boron   | c605s1_region12                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region13                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region14                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region15                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region16                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region17                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region18                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region19                          |         |            |         |                                               |        |       |
-| boron   | c605s1_region20                          |         |            |         |                                               |        |       |
-| boron   | c606s1_region                            |         |            |         |                                               |        |       |
-| boron   | c606s1_regionsm                          |         |            |         |                                               |        |       |
-| boron   | c606s1_region2sm                         | +       |            |         |                                               |        |       |
-| boron   | c606s1_region3sm                         | +       |            |         |                                               |        |       |
-| boron   | c606s2_region                            | +       | +          |         |                                               |        |       |
-| boron   | c606s3_region                            | +       |            |         |                                               |        |       |
-| boron   | c607s1_region1                           | +       | +          |         |                                               |        |       |
-| boron   | c607s1_region2                           |         |            |         |                                               |        |       |
-| boron   | c608s1_region1                           | +       | +          |         |                                               |        |       |
-| boron   | c609s1_region1                           | +       | +          |         |                                               |        |       |
+| boron   | c601s1_region1                           | +       | +          |         |                                               | 118    |       |
+| boron   | c601s1_region2                           | +       | +          |         |                                               | 57     |       |
+| boron   | c601s1_region3                           | +       |            |         |                                               | 149    |       |
+| boron   | c601s1_region4                           | +       |            |         |                                               | 112    |       |
+| boron   | c602s1_region1                           | +       |            |         |                                               | 144    |       |
+| boron   | c602s1_region1sm                         | +       |            |         |                                               | 76     |       |
+| boron   | c603s1_region1                           | +       | +          |         |                                               | 81     |       |
+| boron   | c604s1_region1                           |         |            |         |                                               | 216    |       |
+| boron   | c605s1_region                            | +       | +          |         |                                               | 76     |       |
+| boron   | c605s1_region1sm                         | +       | +          |         |                                               | 88     |       |
+| boron   | c605s1_region2sm                         | +       |            |         | extremly thick and well performing fog        | 160    |       |
+| boron   | c605s1_region2                           | +       |            |         | same as above                                 | 194    |       |
+| boron   | c605s1_region3                           | +       |            |         |                                               | 205    |       |
+| boron   | c605s1_region4                           | +       |            |         |                                               | 198    |       |
+| boron   | c605s1_region5                           | +       |            |         | similar to c605s1_region2sm but low fps       | 90     |       |
+| boron   | c605s1_region6                           | +       |            |         |                                               | 139    |       |
+| boron   | c605s1_region7                           | +       |            |         |                                               | 202    |       |
+| boron   | c605s1_region8                           | +       |            |         |                                               | 195    |       |
+| boron   | c605s1_region9                           | +       |            |         |                                               | 186    |       |
+| boron   | c605s1_region10                          | +       |            |         | similar to performing but even faster         | 186    |       |
+| boron   | c605s1_region12                          |         |            |         |                                               | 215    |       |
+| boron   | c605s1_region13                          |         |            |         |                                               | 214    |       |
+| boron   | c605s1_region14                          |         |            |         |                                               | 216    |       |
+| boron   | c605s1_region15                          |         |            |         |                                               | 216    |       |
+| boron   | c605s1_region16                          |         |            |         |                                               | 211    |       |
+| boron   | c605s1_region17                          |         |            |         |                                               | 213    |       |
+| boron   | c605s1_region18                          |         |            |         |                                               | 216    |       |
+| boron   | c605s1_region19                          |         |            |         |                                               | 216    |       |
+| boron   | c605s1_region20                          |         |            |         |                                               | 219    |       |
+| boron   | c606s1_region                            |         |            |         |                                               | 213    |       |
+| boron   | c606s1_regionsm                          |         |            |         |                                               | 214    |       |
+| boron   | c606s1_region2sm                         | +       |            |         |                                               | 188    |       |
+| boron   | c606s1_region3sm                         | +       |            |         |                                               | 216    |       |
+| boron   | c606s2_region                            | +       | +          |         |                                               | 71     |       |
+| boron   | c606s3_region                            | +       |            |         |                                               | 77     |       |
+| boron   | c607s1_region1                           | +       | +          |         |                                               | 51     |       |
+| boron   | c607s1_region2                           |         |            |         |                                               | 215    |       |
+| boron   | c608s1_region1                           | +       | +          |         |                                               | 74     |       |
+| boron   | c609s1_region1                           | +       | +          |         |                                               | 82     |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 ```
 
