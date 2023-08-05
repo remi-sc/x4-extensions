@@ -23,11 +23,11 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 |         |                                          | vol fog | vol nebula | pos fog |                                               | fps    | fps   |
 | source  |  region                                  | node    | node       | node    | notes                                         | before | after |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| vanilla | empty (reference)                        | +       |            |         |                                               | 225    |       |
+| vanilla | empty (reference)                        |         |            |         |                                               | 225    |       |
 | vanilla | testregion                               | +       |            |         |                                               | 200    |       |
 | vanilla | p1_testregion_field                      |         | +          |         |                                               | 111    |       |
 | vanilla | p1_40km_test_field                       |         |            | +       |                                               | 111    |       |
-| vanilla | p1_40km_test_field2                      |         | +          | +       |                                               | 67     | 104   |
+| vanilla | p1_40km_test_field2                      |         | ++         | +       |                                               | 67     | 104   |
 | vanilla | p1_40km_asteroid_field                   |         |            |         |                                               | 182    |       |
 | vanilla | p1_40km_testregion                       |         |            |         |                                               | 207    |       |
 | vanilla | p1_40km_ice_field                        |         |            |         |                                               | 222    |       |
@@ -62,17 +62,17 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_01_sector_002_g           | +       |            | +       |                                               | 171    |       |
 | vanilla | region_cluster_01_sector_002_h           | +       |            | +       |                                               | 206    |       |
 | vanilla | region_cluster_01_sector_003             |         |            |         |                                               | 223    |       |
-| vanilla | region_cluster_01_sector_003_a           | +       |            | +       |                                               | 225    |       |
+| vanilla | region_cluster_01_sector_003_a           | +       |            |         |                                               | 225    |       |
 | vanilla | region_cluster_01_sector_003_b           | +       |            |         |                                               | 212    |       |
 | vanilla | region_cluster_01_sector_003_c           | +       |            |         |                                               | 225    |       |
 | vanilla | region_cluster_01_sector_003_d           | +       |            |         | invisible spline                              | 223    |       |
 | vanilla | region_cluster_01_sector_003_e           | +       |            |         |                                               | 207    |       |
 | vanilla | region_cluster_01_sector_003_f           | +       |            |         |                                               | 211    |       |
 | vanilla | region_cluster_02_sector_001             |         | +          |         |                                               | 162    |       |
-| vanilla | region_cluster_02_sector_001b            | +       | +          |         |                                               | 136    |       |
+| vanilla | region_cluster_02_sector_001b            | ++      | +          |         |                                               | 136    |       |
 | vanilla | region_cluster_03_sector_001             |         | +          |         |                                               | 159    |       |
 | vanilla | region_cluster_04_sector_001             |         | +          |         |                                               | 161    |       |
-| vanilla | region2_cluster_04_sector_001            | +       | +          |         |                                               | 203    |       |
+| vanilla | region2_cluster_04_sector_001            | ++      | +          |         |                                               | 203    |       |
 | vanilla | region3_cluster_04_sector_001            |         | +          |         | invisible spline                              | 202    |       |
 | vanilla | region_cluster_04_sector_002             |         | +          |         |                                               | 160    |       |
 | vanilla | region_cluster_05_sector_001             |         | +          |         |                                               | 163    |       |
@@ -99,9 +99,9 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_22_sector_001             |         | +          |         |                                               | 163    |       |
 | vanilla | region_cluster_23_sector_001             |         | +          |         |                                               | 161    |       |
 | vanilla | region_cluster_24_sector_001             |         | +          |         |                                               | 164    |       |
-| vanilla | region_cluster_25_sector_001             | +       | +          |         |                                               | 95     | 109   |
-| vanilla | region_cluster_25_sector_002             | +       | +          |         |                                               | 118    |       |
-| vanilla | region_cluster_26_sector_001             | +       | +          |         |                                               | 127    |       |
+| vanilla | region_cluster_25_sector_001             | ++      | +          |         |                                               | 95     | 109   |
+| vanilla | region_cluster_25_sector_002             | ++      | +          |         |                                               | 118    |       |
+| vanilla | region_cluster_26_sector_001             | ++      | +          |         |                                               | 127    |       |
 | vanilla | region_cluster_26_sector_002             | +       | +          | +       | complex but good performance                  | 140    |       |
 | vanilla | region_cluster_27_sector_001             |         | +          |         |                                               | 217    |       |
 | vanilla | region2_cluster_27_sector_001            | +       | +          |         |                                               | 87     | 108   |
@@ -112,26 +112,26 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_30_sector_001             |         | +          |         |                                               | 165    |       |
 | vanilla | region_cluster_31_sector_001             | +       |            |         | heretic'send                                  | 56     | 110   |
 | vanilla | region_cluster_32_sector_001             | +       | +          |         |                                               | 133    |       |
-| vanilla | region_cluster_32_sector_002             | +       | +          |         |                                               | 106    |       |
+| vanilla | region_cluster_32_sector_002             | ++      | +          |         |                                               | 106    |       |
 | vanilla | region_cluster_33_sector_001             | +       |            |         | example of significant fog that performs well | 156    |       |
 | vanilla | region_cluster_35_sector_001_a           | +       | +          |         |                                               | 79     | 108   |
 | vanilla | region_cluster_36_sector_001             |         | +          |         |                                               | 156    |       |
-| vanilla | region_cluster_37_sector_001             | +       | +          |         |                                               | 57     | 111   |
-| vanilla | region_cluster_38_sector_001             | +       | +          |         |                                               | 168    |       |
-| vanilla | region_cluster_38_sector_001_b           | +       | +          |         |                                               | 206    |       |
-| vanilla | region_cluster_40_sector_001             | +       |            |         |                                               | 156    |       |
+| vanilla | region_cluster_37_sector_001             | +++     | +          |         |                                               | 57     | 111   |
+| vanilla | region_cluster_38_sector_001             | ++      | ++         |         |                                               | 168    |       |
+| vanilla | region_cluster_38_sector_001_b           | ++      | ++         |         |                                               | 206    |       |
+| vanilla | region_cluster_40_sector_001             | ++      |            |         |                                               | 156    |       |
 | vanilla | demo_region_cluster_40_sector_001        |         |            |         |                                               | 203    |       |
 | vanilla | region_cluster_41_sector_001             | +       |            | +       |                                               | 126    |       |
-| vanilla | region_cluster_43_sector_001             | +       |            |         |                                               | 102    |       |
-| vanilla | region_cluster_44_sector_001             | +       |            |         |                                               | 116    |       |
-| vanilla | region_cluster_45_sector_001             | +       |            |         |                                               | 121    |       |
-| vanilla | region_cluster_46_sector_001             | +       | +          |         |                                               | 184    |       |
-| vanilla | region_cluster_47_sector_001             | +       | +          |         |                                               | 50     | 117   |
-| vanilla | region_cluster_47_sector_001b            | +       | +          |         |                                               | 41     | 100   |
-| vanilla | region_cluster_48_sector_001             | +       |            |         |                                               | 93     | 111   |
+| vanilla | region_cluster_43_sector_001             | ++      |            |         |                                               | 102    |       |
+| vanilla | region_cluster_44_sector_001             | ++      |            |         |                                               | 116    |       |
+| vanilla | region_cluster_45_sector_001             | ++      |            |         |                                               | 121    |       |
+| vanilla | region_cluster_46_sector_001             | ++      | +          |         |                                               | 184    |       |
+| vanilla | region_cluster_47_sector_001             | ++      | +          |         |                                               | 50     | 117   |
+| vanilla | region_cluster_47_sector_001b            | ++      | +          |         |                                               | 41     | 100   |
+| vanilla | region_cluster_48_sector_001             | ++      |            |         |                                               | 93     | 111   |
 | vanilla | region_cluster_49_sector_001             |         | +          |         |                                               | 158    |       |
-| vanilla | region_cluster_50_sector_001             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 115   |
-| vanilla | region_cluster_50_sector_002             | +       | +          |         | invisible nebula fog that kills fps?          | 54     | 116   |
+| vanilla | region_cluster_50_sector_001             | ++      | +          |         | invisible nebula fog that kills fps?          | 54     | 115   |
+| vanilla | region_cluster_50_sector_002             | ++      | +          |         | invisible nebula fog that kills fps?          | 54     | 116   |
 | vanilla | region_bigasteroids                      | +       |            | +       |                                               | 106    |       |
 | vanilla | specialregion_cluster_14_sector_001      | +       |            |         |                                               | 209    |       |
 | vanilla | audioregion_cluster_14_sector_001        | +       |            |         |                                               | 129    |       |
@@ -142,22 +142,22 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | terran  |torus_radiation_2                         |         |            |         |                                               | 214    |       |
 | terran  |torus_radiation1b                         |         |            |         |                                               | 216    |       |
 | terran  |torus_radiation2b                         |         |            |         |                                               | 217    |       |
-| terran  |asteroidbelt_main                         | +       | +          |         |                                               | 46     |       |
-| terran  |blue_pink_large                           | +       | +          |         |                                               | 43     |       |
+| terran  |asteroidbelt_main                         | ++      | +++        |         |                                               | 46     |       |
+| terran  |blue_pink_large                           | +       | +++        |         |                                               | 43     |       |
 | terran  |mercury_field                             |         | +          |         |                                               | 164    |       |
-| terran  |saturn_field                              | +       | +          |         | weird falloff, I see anything                 | 214    |       |
-| terran  |titan_field                               |         | +          |         | again - cant see any nebulas                  | 131    |       |
-| terran  |neptune_field                             |         | +          |         | same as above                                 | 129    |       |
-| terran  |oort_field                                |         | +          |         | same as above                                 | 113    |       |
-| terran  |cluster114_region01                       | +       | +          |         |                                               | 66     |       |
-| terran  |cluster112_s1_region01                    | +       | +          |         |                                               | 70     |       |
-| terran  |cluster112_s2_region01                    | +       | +          |         |                                               | 70     |       |
-| terran  |cluster113_region01                       | +       | +          |         |                                               | 91     |       |
+| terran  |saturn_field                              | ++      | ++         |         | weird falloff, I cant see anything            | 214    |       |
+| terran  |titan_field                               |         | ++         |         | again - cant see any nebulas                  | 131    |       |
+| terran  |neptune_field                             |         | ++         |         | same as above                                 | 129    |       |
+| terran  |oort_field                                |         | +++        |         | same as above                                 | 113    |       |
+| terran  |cluster114_region01                       | ++      | +++        |         |                                               | 66     |       |
+| terran  |cluster112_s1_region01                    | ++      | +++        |         |                                               | 70     |       |
+| terran  |cluster112_s2_region01                    | ++      | +++        |         |                                               | 70     |       |
+| terran  |cluster113_region01                       | +       | +++        |         |                                               | 91     |       |
 | terran  |cluster113_region02                       | +       |            |         |                                               | 191    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 | pirate  | wave_main                                | +       |            |         | nice deep red fog with good performance       | 158    |       |
 | pirate  | wave_active                              | +       | +          |         |                                               | 90     |       |
-| pirate  | wave_asteroids                           |         | +          |         |                                               | 108    |       |
+| pirate  | wave_asteroids                           |         | +++        |         |                                               | 108    |       |
 | pirate  | s2_grav                                  | +       |            |         |                                               | 198    |       |
 | pirate  | s2_grav_small                            | +       |            |         |                                               | 108    |       |
 | pirate  | s2_grav_small_v2                         | +       |            |         |                                               | 149    |       |
@@ -172,35 +172,35 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | pirate  | region504_asteroids                      |         |            |         |                                               | 210    |       |
 | pirate  | region504_grav                           | +       |            |         |                                               | 136    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| split   | region_cluster_401_sector_001            | +       | +          |         |                                               | 71     |       |
+| split   | region_cluster_401_sector_001            | ++      | +++        |         |                                               | 71     |       |
 | split   | region_cluster_402_sector_001            |         |            |         |                                               | 213    |       |
 | split   | region_cluster_410_sector_001            |         |            |         |                                               | 213    |       |
 | split   | region_cluster_411_sector_001            | +       | +          |         |                                               | 97     |       |
 | split   | region_cluster_411_sector_001_b          | +       |            |         |                                               | 205    |       |
-| split   | region_cluster_412_sector_001            | +       |            |         |                                               | 89     |       |
-| split   | region_cluster_413_sector_001            | +       | +          |         |                                               | 28     |       |
+| split   | region_cluster_412_sector_001            | +       | +++        |         |                                               | 89     |       |
+| split   | region_cluster_413_sector_001            | ++      | +++        |         |                                               | 28     |       |
 | split   | region_cluster_414_sector_001            |         |            |         |                                               | 212    |       |
 | split   | region_cluster_415_sector_001            |         | +          |         |                                               | 155    |       |
 | split   | region_cluster_416_sector_002            |         |            |         |                                               | 217    |       |
 | split   | region_cluster_418_sector_001_b          |         |            |         |                                               | 207    |       |
 | split   | region_cluster_418_sector_001_c          |         |            |         |                                               | 210    |       |
-| split   | region_cluster_418_sector_001_d          |         | +          |         |                                               | 86     |       |
+| split   | region_cluster_418_sector_001_d          |         | +++        |         |                                               | 86     |       |
 | split   | region_cluster_420_sector_001            | +       |            |         |                                               | 101    |       |
 | split   | region_cluster_421_sector_001            |         |            |         |                                               | 205    |       |
 | split   | region_cluster_422_sector_001            | +       |            |         |                                               | 144    |       |
 | split   | region_cluster_424_sector_002            |         |            |         |                                               | 205    |       |
 | split   | region_cluster_425_sector_001            |         |            |         |                                               | 207    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
-| boron   | c601s1_region1                           | +       | +          |         |                                               | 118    |       |
-| boron   | c601s1_region2                           | +       | +          |         |                                               | 57     |       |
+| boron   | c601s1_region1                           | +       | +++        |         |                                               | 118    |       |
+| boron   | c601s1_region2                           | +       | +++        |         |                                               | 57     |       |
 | boron   | c601s1_region3                           | +       |            |         |                                               | 149    |       |
 | boron   | c601s1_region4                           | +       |            |         |                                               | 112    |       |
 | boron   | c602s1_region1                           | +       |            |         |                                               | 144    |       |
 | boron   | c602s1_region1sm                         | +       |            |         |                                               | 76     |       |
-| boron   | c603s1_region1                           | +       | +          |         |                                               | 81     |       |
+| boron   | c603s1_region1                           | +       | +++        |         |                                               | 81     |       |
 | boron   | c604s1_region1                           |         |            |         |                                               | 216    |       |
-| boron   | c605s1_region                            | +       | +          |         |                                               | 76     |       |
-| boron   | c605s1_region1sm                         | +       | +          |         |                                               | 88     |       |
+| boron   | c605s1_region                            | +       | +++        |         |                                               | 76     |       |
+| boron   | c605s1_region1sm                         | +       | +++        |         |                                               | 88     |       |
 | boron   | c605s1_region2sm                         | +       |            |         | extremly thick and well performing fog        | 160    |       |
 | boron   | c605s1_region2                           | +       |            |         | same as above                                 | 194    |       |
 | boron   | c605s1_region3                           | +       |            |         |                                               | 205    |       |
