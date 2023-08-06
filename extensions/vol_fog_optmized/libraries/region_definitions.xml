@@ -115,4 +115,49 @@
   <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@size">10500</replace>
   <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@densityfactor">0.3</replace>
   <replace sel="/regions/region[@name='p1_40km_methane_highyield_field']/fields/volumetricfog/@minnoisevalue">0.45</replace>
+
+  <replace sel="/regions/region[@name='wave_active']/fields/volumetricfog/@multiplier">0.4</replace>
+  <replace sel="/regions/region[@name='wave_active']/fields/volumetricfog/@size">10500</replace>
+  <replace sel="/regions/region[@name='wave_active']/fields/volumetricfog/@noisescale">800000</replace>
+  <replace sel="/regions/region[@name='wave_active']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='region_c501s01_base']/fields/volumetricfog/@multiplier">3.6</replace>
+  <replace sel="/regions/region[@name='region_c501s01_base']/fields/volumetricfog/@densityfactor">0.00000025</replace>
+  <replace sel="/regions/region[@name='region_c501s01_base']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='region_c502s01_base']/fields/volumetricfog/@multiplier">4.0</replace>
+  <replace sel="/regions/region[@name='region_c502s01_base']/fields/volumetricfog/@densityfactor">0.000002</replace>
+  <replace sel="/regions/region[@name='region_c502s01_base']/fields/volumetricfog/@minnoisevalue">0.5</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_411_sector_001']/fields/volumetricfog/@multiplier">0.35</replace>
+  <replace sel="/regions/region[@name='region_cluster_411_sector_001']/fields/volumetricfog/@densityfactor">0.03</replace>
+
+  <replace sel="/regions/region[@name='c602s1_region1sm']/fields/volumetricfog/@multiplier">4.0</replace>
+  <replace sel="/regions/region[@name='c602s1_region1sm']/fields/volumetricfog/@densityfactor">0.005</replace>
+
+  <replace sel="/regions/region[@name='c605s1_region5']/fields/volumetricfog/@multiplier">0.18</replace>
+  <replace sel="/regions/region[@name='c605s1_region5']/fields/volumetricfog/@densityfactor">0.35</replace>
+
+  <replace sel="/regions/region[@name='c606s2_region']/fields/volumetricfog/@multiplier">2.0</replace>
+  <replace sel="/regions/region[@name='c606s2_region']/fields/volumetricfog/@densityfactor">0.0075</replace>
+  <replace sel="/regions/region[@name='c606s2_region']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='c606s3_region']/fields/volumetricfog/@multiplier">0.0304</replace>
+  <replace sel="/regions/region[@name='c606s3_region']/fields/volumetricfog/@densityfactor">0.0075</replace>
+  <replace sel="/regions/region[@name='c606s3_region']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='c607s1_region1']/fields/volumetricfog/@multiplier">4.0</replace>
+  <replace sel="/regions/region[@name='c607s1_region1']/fields/volumetricfog/@size">80000</replace>
+  <replace sel="/regions/region[@name='c607s1_region1']/fields/volumetricfog/@densityfactor">0.00075</replace>
+  <replace sel="/regions/region[@name='c607s1_region1']/fields/volumetricfog/@noisescale">8500</replace>
+  <replace sel="/regions/region[@name='c607s1_region1']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='c608s1_region1']/fields/volumetricfog/@multiplier">2.0</replace>
+  <replace sel="/regions/region[@name='c608s1_region1']/fields/volumetricfog/@densityfactor">0.0075</replace>
+  <replace sel="/regions/region[@name='c608s1_region1']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@multiplier">2.0</replace>
+  <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@size">140000</replace>
+  <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@densityfactor">0.0075</replace>
+  <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@minnoisevalue">0.4</replace>
 </diff>

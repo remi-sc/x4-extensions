@@ -156,13 +156,13 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | terran  |cluster113_region02                       | +       |            |         |                                               | 191    |       |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 | pirate  | wave_main                                | +       |            |         | nice deep red fog with good performance       | 158    |       |
-| pirate  | wave_active                              | +       | +          |         |                                               | 90     |       |
+| pirate  | wave_active                              | +       | +          |         |                                               | 90     | 115   |
 | pirate  | wave_asteroids                           |         | +++        |         |                                               | 108    |       |
 | pirate  | s2_grav                                  | +       |            |         |                                               | 198    |       |
 | pirate  | s2_grav_small                            | +       |            |         |                                               | 108    |       |
 | pirate  | s2_grav_small_v2                         | +       |            |         |                                               | 149    |       |
-| pirate  | region_c501s01_base                      | +       | +          |         |                                               | 85     |       |
-| pirate  | region_c502s01_base                      | +       | +          |         |                                               | 78     |       |
+| pirate  | region_c501s01_base                      | +       | +          |         |                                               | 85     | 105   |
+| pirate  | region_c502s01_base                      | +       | +          |         |                                               | 78     | 116   |
 | pirate  | region_c502s01_scrap                     | +       | +          |         |                                               | 169    |       |
 | pirate  | region_c503s01_casino                    | +       |            |         |                                               | 164    |       |
 | pirate  | region_c503s01_casino2                   | +       |            |         |                                               | 172    |       |
@@ -175,7 +175,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | split   | region_cluster_401_sector_001            | ++      | +++        |         |                                               | 71     |       |
 | split   | region_cluster_402_sector_001            |         |            |         |                                               | 213    |       |
 | split   | region_cluster_410_sector_001            |         |            |         |                                               | 213    |       |
-| split   | region_cluster_411_sector_001            | +       | +          |         |                                               | 97     |       |
+| split   | region_cluster_411_sector_001            | +       | +          |         |                                               | 97     | 120   |
 | split   | region_cluster_411_sector_001_b          | +       |            |         |                                               | 205    |       |
 | split   | region_cluster_412_sector_001            | +       | +++        |         |                                               | 89     |       |
 | split   | region_cluster_413_sector_001            | ++      | +++        |         |                                               | 28     |       |
@@ -196,7 +196,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | boron   | c601s1_region3                           | +       |            |         |                                               | 149    |       |
 | boron   | c601s1_region4                           | +       |            |         |                                               | 112    |       |
 | boron   | c602s1_region1                           | +       |            |         |                                               | 144    |       |
-| boron   | c602s1_region1sm                         | +       |            |         |                                               | 76     |       |
+| boron   | c602s1_region1sm                         | +       |            |         |                                               | 76     | 115   |
 | boron   | c603s1_region1                           | +       | +++        |         |                                               | 81     |       |
 | boron   | c604s1_region1                           |         |            |         |                                               | 216    |       |
 | boron   | c605s1_region                            | +       | +++        |         |                                               | 76     |       |
@@ -205,7 +205,7 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | boron   | c605s1_region2                           | +       |            |         | same as above                                 | 194    |       |
 | boron   | c605s1_region3                           | +       |            |         |                                               | 205    |       |
 | boron   | c605s1_region4                           | +       |            |         |                                               | 198    |       |
-| boron   | c605s1_region5                           | +       |            |         | similar to c605s1_region2sm but low fps       | 90     |       |
+| boron   | c605s1_region5                           | +       |            |         | similar to c605s1_region2sm but low fps       | 90     | 106   |
 | boron   | c605s1_region6                           | +       |            |         |                                               | 139    |       |
 | boron   | c605s1_region7                           | +       |            |         |                                               | 202    |       |
 | boron   | c605s1_region8                           | +       |            |         |                                               | 195    |       |
@@ -224,12 +224,12 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | boron   | c606s1_regionsm                          |         |            |         |                                               | 214    |       |
 | boron   | c606s1_region2sm                         | +       |            |         |                                               | 188    |       |
 | boron   | c606s1_region3sm                         | +       |            |         |                                               | 216    |       |
-| boron   | c606s2_region                            | +       | +          |         |                                               | 71     |       |
-| boron   | c606s3_region                            | +       |            |         |                                               | 77     |       |
-| boron   | c607s1_region1                           | +       | +          |         |                                               | 51     |       |
+| boron   | c606s2_region                            | +       | +          |         |                                               | 71     | 109   |
+| boron   | c606s3_region                            | +       |            |         |                                               | 77     | 118   |
+| boron   | c607s1_region1                           | +       | +          |         |                                               | 51     | 107   |
 | boron   | c607s1_region2                           |         |            |         |                                               | 215    |       |
-| boron   | c608s1_region1                           | +       | +          |         |                                               | 74     |       |
-| boron   | c609s1_region1                           | +       | +          |         |                                               | 82     |       |
+| boron   | c608s1_region1                           | +       | +          |         |                                               | 74     | 116   |
+| boron   | c609s1_region1                           | +       | +          |         |                                               | 82     | 113   |
 +---------+------------------------------------------+---------+------------+---------+-----------------------------------------------+--------+-------+
 ```
 
