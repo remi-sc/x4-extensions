@@ -164,4 +164,64 @@
   <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@size">140000</replace>
   <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@densityfactor">0.0075</replace>
   <replace sel="/regions/region[@name='c609s1_region1']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt']/@multiplier">0.8</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt']/@size">150000</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt']/@densityfactor">0.0015</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt']/@noisescale">800000</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt']/@minnoisevalue">0.4</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt2']/@multiplier">0.8</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt2']/@size">150000</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt2']/@densityfactor">0.0015</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt2']/@noisescale">800000</replace>
+  <replace sel="/regions/region[@name='asteroidbelt_main']/fields/volumetricfog[@medium='fog_asteroidbelt2']/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='blue_pink_large']/fields/volumetricfog/@multiplier">0.6</replace>
+  <replace sel="/regions/region[@name='blue_pink_large']/fields/volumetricfog/@size">20000</replace>
+  <replace sel="/regions/region[@name='blue_pink_large']/fields/volumetricfog/@densityfactor">0.25</replace>
+  <replace sel="/regions/region[@name='blue_pink_large']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114a']/@multiplier">0.02</replace>
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114a']/@densityfactor">0.004</replace>
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114a']/@minnoisevalue">0.4</replace>
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114b']/@multiplier">0.02</replace>
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114b']/@densityfactor">0.004</replace>
+  <replace sel="/regions/region[@name='cluster114_region01']/fields/volumetricfog[@medium='fog_cluster114b']/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/fields/volumetricfog[@medium='fog_lightbrown_base_var1']/@multiplier">0.4</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/fields/volumetricfog[@medium='fog_lightbrown_base_var1']/@densityfactor">0.0015</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/fields/volumetricfog[@medium='fog_lightbrown_base_var1']/@minnoisevalue">0.2</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/fields/volumetricfog[@medium='fog_orange_directional_var1']/@multiplier">0.4</replace>
+  <replace sel="/regions/region[@name='cluster112_s1_region01']/fields/volumetricfog[@medium='fog_orange_directional_var1']/@densityfactor">0.075</replace>
+
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/fields/volumetricfog[@medium='fog_lightbrown_base']/@multiplier">0.4</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/fields/volumetricfog[@medium='fog_lightbrown_base']/@densityfactor">0.0015</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/fields/volumetricfog[@medium='fog_lightbrown_base']/@minnoisevalue">0.2</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/fields/volumetricfog[@medium='fog_orange_directional']/@multiplier">1.6</replace>
+  <replace sel="/regions/region[@name='cluster112_s2_region01']/fields/volumetricfog[@medium='fog_orange_directional']/@densityfactor">0.0015</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_401_sector_001']/fields/volumetricfog[@medium='fog_burgundy']/@multiplier">1.1</replace>
+  <replace sel="/regions/region[@name='region_cluster_401_sector_001']/fields/volumetricfog[@medium='fog_burgundy']/@densityfactor">0.008</replace>
+  <replace sel="/regions/region[@name='region_cluster_401_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@multiplier">0.6</replace>
+  <replace sel="/regions/region[@name='region_cluster_401_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@densityfactor">0.006</replace>
+  <replace sel="/regions/region[@name='region_cluster_401_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@minnoisevalue">0.1</replace>
+
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@multiplier">0.3</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@size">120000</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@densityfactor">0.0075</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@noisescale">100000</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_grey_emissive2']/@minnoisevalue">0.1</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_lightgreen']/@multiplier">0.4</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_lightgreen']/@size">120000</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_lightgreen']/@densityfactor">0.0037</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_lightgreen']/@noisescale">100000</replace>
+  <replace sel="/regions/region[@name='region_cluster_413_sector_001']/fields/volumetricfog[@medium='fog_lightgreen']/@minnoisevalue">0.2</replace>
+
+  <replace sel="/regions/region[@name='c601s1_region2']/fields/volumetricfog/@multiplier">2.0</replace>
+  <replace sel="/regions/region[@name='c601s1_region2']/fields/volumetricfog/@densityfactor">0.0005</replace>
+  <replace sel="/regions/region[@name='c601s1_region2']/fields/volumetricfog/@minnoisevalue">0.4</replace>
+
+  <replace sel="/regions/region[@name='c605s1_region']/fields/volumetricfog/@multiplier">0.8</replace>
+  <replace sel="/regions/region[@name='c605s1_region']/fields/volumetricfog/@densityfactor">0.0015</replace>
+  <replace sel="/regions/region[@name='c605s1_region']/fields/volumetricfog/@minnoisevalue">0.2</replace>
 </diff>
