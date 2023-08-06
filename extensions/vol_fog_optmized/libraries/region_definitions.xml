@@ -1,16 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <diff>
   <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@multiplier">1.0</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@size">19800</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@densityfactor">0.1</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@noisescale">21000</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@minnoisevalue">0.81</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@maxnoisevalue">0.89</replace>
-  <!-- alternative heretics end optimized settings
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@multiplier">0.25</replace>
   <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@size">38000</replace>
-  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@densityfactor">0.05</replace>
-  -->
+  <replace sel="/regions/region[@name='region_cluster_31_sector_001']/fields/volumetricfog/@densityfactor">0.04</replace>
 
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/fields/volumetricfog[@medium='fog_red']/@multiplier">1.51</replace>
   <replace sel="/regions/region[@name='region_cluster_47_sector_001']/fields/volumetricfog[@medium='fog_red']/@size">30000</replace>

@@ -4,7 +4,7 @@
     name="Volumetric fog optimized"
     description="Optimizes the volumetric fog to acheive better performance while trying to preserve the looks"
     author="Remisc"
-    version="100"
+    version="101"
     date="2023-07-30"
     save="false"
     enabled="1"
