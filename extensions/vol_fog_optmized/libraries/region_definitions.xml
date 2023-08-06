@@ -44,12 +44,10 @@
   <replace sel="/regions/region[@name='p1_80km_hydrogen_field']/fields/volumetricfog/@minnoisevalue">0.5</replace>
   <replace sel="/regions/region[@name='p1_80km_hydrogen_field']/fields/volumetricfog/@maxnoisevalue">0.8</replace>
 
-  <remove sel="/regions/region[@name='region_cluster_50_sector_001']/fields/nebula[@ref='fogpattern_v3_macro']"/>
   <replace sel="/regions/region[@name='region_cluster_50_sector_001']/fields/volumetricfog[@medium='fog_turquoise']/@multiplier">1.8</replace>
   <replace sel="/regions/region[@name='region_cluster_50_sector_001']/fields/volumetricfog[@medium='fog_turquoise']/@densityfactor">0.0006</replace>
   <replace sel="/regions/region[@name='region_cluster_50_sector_001']/fields/volumetricfog[@medium='fog_turquoise']/@minnoisevalue">0.4</replace>
 
-  <remove sel="/regions/region[@name='region_cluster_50_sector_002']/fields/nebula[@ref='fogpattern_v3_macro']"/>
   <replace sel="/regions/region[@name='region_cluster_50_sector_002']/fields/volumetricfog[@medium='fog_turquoise']/@multiplier">1.8</replace>
   <replace sel="/regions/region[@name='region_cluster_50_sector_002']/fields/volumetricfog[@medium='fog_turquoise']/@densityfactor">0.0006</replace>
   <replace sel="/regions/region[@name='region_cluster_50_sector_002']/fields/volumetricfog[@medium='fog_turquoise']/@minnoisevalue">0.4</replace>

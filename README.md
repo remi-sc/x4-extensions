@@ -130,8 +130,8 @@ xml nodes that seem to be able to generate some fog (depending on parameters): <
 | vanilla | region_cluster_47_sector_001b            | ++      | +          |         |                                               | 41     | 100   |
 | vanilla | region_cluster_48_sector_001             | ++      |            |         |                                               | 93     | 111   |
 | vanilla | region_cluster_49_sector_001             |         | +          |         |                                               | 158    |       |
-| vanilla | region_cluster_50_sector_001             | ++      | +          |         | fogpattern_v3_macro is heavy cant see it in   | 54     | 113   |
-| vanilla | region_cluster_50_sector_002             | ++      | +          |         | test sector but visible in Turquoise Sea      | 54     | 110   |
+| vanilla | region_cluster_50_sector_001             | ++      | +          |         | fogpattern_v3_macro is heavy cant see it in   | 54     | 60   |
+| vanilla | region_cluster_50_sector_002             | ++      | +          |         | test sector but visible in Turquoise Sea      | 54     | 61   |
 | vanilla | region_bigasteroids                      | +       |            | +       |                                               | 106    |       |
 | vanilla | specialregion_cluster_14_sector_001      | +       |            |         |                                               | 209    |       |
 | vanilla | audioregion_cluster_14_sector_001        | +       |            |         |                                               | 129    |       |
