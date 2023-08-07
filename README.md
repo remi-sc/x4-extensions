@@ -1,9 +1,12 @@
 # vol_fog_optmized #
 
 The aim of this extension is to optimize the very poor performance of volumetric fog
-while trying to preserve the looks as best as possible.
+in X4 while trying to preserve the looks as best as possible.
 Additionally volumetric fog is not possible to disable
 (the corresponding option in graphics setting does not disable it even when set to "off")
+
+Egosoft forum thread:
+https://forum.egosoft.com/viewtopic.php?f=181&t=456998
 
 This was kicked off from forum posts starting from:
 https://forum.egosoft.com/viewtopic.php?f=180&t=414524&start=720#p5197757
